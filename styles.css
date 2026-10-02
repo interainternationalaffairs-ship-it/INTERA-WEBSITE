@@ -16,3 +16,11 @@
 
 /* Contact phone icons */
 .contact-phone-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.compact-phone{padding-left:0}.contact-icon{width:22px;height:22px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;background:#fff;border:1px solid rgba(11,33,71,.12)}.contact-icon svg{width:13px;height:13px;fill:currentColor}.phone-icon{color:var(--navy)}.whatsapp-icon{color:#25D366}.viber-icon{color:#7360F2}.contact-number{font-family:Georgia,serif;font-size:17px;color:var(--navy);font-weight:600;margin-left:2px}
+
+/* Approved icon system */
+.line-icon,.network-icon{width:34px;height:34px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.service .icon,.value .icon{color:#d87919;font-size:0}
+.service .card-arrow,.industry-card .card-arrow,.founder-arrow{color:#d87919;font-size:20px;line-height:1}
+.service{position:relative}.service .card-arrow{position:absolute;left:34px;bottom:16px}
+.industry-card h3{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.node .bubble .line-icon,.node .bubble .network-icon{width:25px;height:25px;color:#0b2147}
